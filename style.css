@@ -1,0 +1,106 @@
+body {
+    background-color: #eee;
+    color: #333;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    /* max-width: 1260px; */
+    /* margin: 0 auto; */
+}
+
+/* .flex-container {
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+} */
+#block {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#block div {
+    flex: 0 0 100px;
+    padding: 40px 0;
+    text-align: center;
+    background: #ccc;
+    
+
+}
+/* order: its show which number will come first and which number will come last 
+the lowest the number of order the first it will come 
+and voice versa  */
+
+.one {
+    order: 0;
+}
+.two {
+    order: 0;
+}
+
+.three {
+    order: 0;
+}
+
+.four {
+    order: 0;
+}
+
+
+/* .flex-container:after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+/* .box {
+    height: 100px;
+    flex: 0 0 100px;
+    /* flex-basis: 500px; */
+    /* min-width: 250px; */
+    /* flex-grow: 1; */
+    /* float: left; */
+} */
+
+/* 1: flex-grow:
+-> property work to grow column or expend column */
+
+/* 2: flex-shrink:
+-> property work to shrink column or small column */
+/* 3: flex-wrape: wrap; 
+-> this property make the element to junmp to next line */
+/* 4: flex-basis:
+-> this means like min-width of element  */
+/* 5: flex: 1 1 200px first flex-grow second flex-shrink third flex-basis */
+/* 6: align-items:
+-> this means like it will go along with cross axis  */
+/* 7: justify-content:
+-> this means like it will go along with main axis  */
+
+/* 
+.one {
+    background-color: red;
+    /* flex-grow: 2; */
+    /* flex-shrink: 1; */
+}
+
+/* .two {
+    background-color: blue;
+    /* flex-grow: 3; */
+    /* flex-shrink: 2; */
+} */
+
+/* .three {
+    background-color: green;
+    /* flex-grow: 1; */
+    /* flex-shrink: 3; */
+} */
+/* .four {
+    background-color: yellow;
+} */ */
